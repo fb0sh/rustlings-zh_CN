@@ -1,15 +1,12 @@
 // Don't change this function.
+// 不要修改这个函数
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len() {
-        x
-    } else {
-        y
-    }
+    if x.len() > y.len() { x } else { y }
 }
 
 fn main() {
     // TODO: Fix the compiler error by moving one line.
-
+    // TODO: 通过移动一行代码来修复编译器错误。
     let string1 = String::from("long string is long");
     let result;
     {

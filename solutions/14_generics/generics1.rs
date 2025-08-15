@@ -8,6 +8,7 @@ fn main() {
     //             ^^^^^^^^^^ added
 
     // Don't change the lines below.
+// 不要修改下面的行
     let n1: u8 = 42;
     numbers.push(n1.into());
     let n2: i8 = -1;

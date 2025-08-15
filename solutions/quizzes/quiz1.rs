@@ -13,6 +13,7 @@ fn calculate_price_of_apples(n_apples: u64) -> u64 {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 // Don't change the tests!

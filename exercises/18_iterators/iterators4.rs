@@ -10,10 +10,22 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+
+    // TODO: 完成此函数以返回 `num` 的阶乘，阶乘定义为 `1 * 2 * 3 * … * num`。
+    // https://en.wikipedia.org/wiki/Factorial
+    //
+    // 不要使用：
+    // - 提前返回（显式使用 `return` 关键字）
+    // 尽量不要使用：
+    // - 命令式风格的循环 (for/while)
+    // - 额外的变量
+    // 对于额外的挑战，不要使用：
+    // - 递归
 }
 
 fn main() {
     // You can optionally experiment here.
+    // 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

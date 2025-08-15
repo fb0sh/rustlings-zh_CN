@@ -6,5 +6,6 @@ macro_rules! my_macro {
 
 fn main() {
     // TODO: Fix the macro call.
+    // TODO: 修复宏调用
     my_macro();
 }

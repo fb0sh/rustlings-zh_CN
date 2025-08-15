@@ -21,6 +21,7 @@ fn num_sq<T: AsMut<u32>>(arg: &mut T) {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

@@ -6,5 +6,6 @@ fn call_me(num: u8) {
 
 fn main() {
     // TODO: Fix the function call.
+    // TODO: 修复函数调用
     call_me();
 }

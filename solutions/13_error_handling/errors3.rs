@@ -5,6 +5,7 @@
 use std::num::ParseIntError;
 
 // Don't change this function.
+// 不要修改这个函数
 fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {
     let processing_fee = 1;
     let cost_per_item = 5;

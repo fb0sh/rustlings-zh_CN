@@ -2,6 +2,9 @@
 // each thread returns how much time it took to complete. The program should
 // wait until all the spawned threads have finished and should collect their
 // return values into a vector.
+// 这个程序生成多个线程，每个线程都至少运行 250ms，并且每个线程都返回
+// 其完成所花费的时间。该程序应该等待所有生成的线程完成，并将其返回值
+// 收集到一个向量中。
 
 use std::{
     thread,
@@ -24,6 +27,8 @@ fn main() {
     for handle in handles {
         // TODO: Collect the results of all threads into the `results` vector.
         // Use the `JoinHandle` struct which is returned by `thread::spawn`.
+        // TODO: 将所有线程的结果收集到 `results` 向量中。
+        // 使用 `thread::spawn` 返回的 `JoinHandle` 结构体。
     }
 
     if results.len() != 10 {

@@ -1,4 +1,6 @@
 // TODO: Fix the compiler error in the function without adding any new line.
+// TODO: 在不添加任何新行的情况下修复函数的编译错误
+
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
     vec.push(88);
 
@@ -7,6 +9,7 @@ fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
 
 fn main() {
     // You can optionally experiment here.
+    // 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

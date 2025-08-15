@@ -17,6 +17,7 @@ fn compare_license_types(software1: impl Licensed, software2: impl Licensed) -> 
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

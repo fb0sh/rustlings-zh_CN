@@ -16,6 +16,7 @@
 // that later in the exercises about threads.
 
 // Don't change the lines below.
+// 不要修改下面的行
 #![forbid(unused_imports)]
 use std::{sync::Arc, thread};
 

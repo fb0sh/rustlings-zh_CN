@@ -6,6 +6,7 @@ fn power_of_2(n: u8) -> u64 {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

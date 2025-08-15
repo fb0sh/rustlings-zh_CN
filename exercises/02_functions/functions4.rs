@@ -2,12 +2,17 @@
 // Rustbucks off, but if it's an odd number, it's 3 Rustbucks off.
 // Don't worry about the function bodies themselves, we are only interested in
 // the signatures for now.
+// 这家商店正在做促销，如果价格是偶数，你可以减免 10 Rustbucks；
+// 如果价格是奇数，你可以减免 3 Rustbucks。
+// 这里我们只关注函数签名，不需要实现函数体。
+
 
 fn is_even(num: i64) -> bool {
     num % 2 == 0
 }
 
 // TODO: Fix the function signature.
+// TODO: 修复函数签名。
 fn sale_price(price: i64) -> {
     if is_even(price) {
         price - 10

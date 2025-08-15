@@ -5,6 +5,7 @@ struct Rectangle {
 
 impl Rectangle {
     // Don't change this function.
+// 不要修改这个函数
     fn new(width: i32, height: i32) -> Self {
         if width <= 0 || height <= 0 {
             // Returning a `Result` would be better here. But we want to learn
@@ -18,6 +19,7 @@ impl Rectangle {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

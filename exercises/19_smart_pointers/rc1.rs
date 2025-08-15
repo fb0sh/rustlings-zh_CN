@@ -2,6 +2,9 @@
 // `Rc<T>` type. This is a model of our solar system - there is a `Sun` type and
 // multiple `Planet`s. The planets take ownership of the sun, indicating that
 // they revolve around the sun.
+// 在此练习中，我们希望通过 `Rc<T>` 类型来表达多所有者（multiple owners）的
+// 概念。这是一个太阳系模型——有一个 `Sun` 类型和多个 `Planet`。行星拥有太阳的
+// 所有权，这表示它们围绕太阳公转。
 
 use std::rc::Rc;
 
@@ -28,6 +31,7 @@ impl Planet {
 
 fn main() {
     // You can optionally experiment here.
+    // 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

@@ -26,6 +26,7 @@ fn capitalize_words_string(words: &[&str]) -> String {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

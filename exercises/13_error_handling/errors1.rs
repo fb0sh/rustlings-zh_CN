@@ -4,9 +4,15 @@
 // construct to `Option` that can be used to express error conditions. Change
 // the function signature and body to return `Result<String, String>` instead
 // of `Option<String>`.
+// TODO: 如果传入空字符串，此函数会拒绝生成用于打印在名牌上的文本。
+// 如果它能解释问题所在而不是简单地返回 None，那就更好了。幸运的是，Rust
+// 有一个与 Option 类似的结构，可用于表达错误情况。将函数签名和函数体
+// 更改为返回 Result<String, String>，而不是 Option<String>。
+
 fn generate_nametag_text(name: String) -> Option<String> {
     if name.is_empty() {
         // Empty names aren't allowed
+        // 空名称是不允许的。
         None
     } else {
         Some(format!("Hi! My name is {name}"))
@@ -15,6 +21,7 @@ fn generate_nametag_text(name: String) -> Option<String> {
 
 fn main() {
     // You can optionally experiment here.
+    // 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

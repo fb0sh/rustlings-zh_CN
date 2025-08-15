@@ -7,6 +7,7 @@ struct Point {
 #[derive(Debug)]
 enum Message {
     // TODO: Define the different variants used below.
+    // TODO: 定义下面使用到的不同枚举变体
 }
 
 impl Message {

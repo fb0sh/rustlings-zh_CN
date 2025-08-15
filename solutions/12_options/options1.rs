@@ -12,6 +12,7 @@ fn maybe_icecream(hour_of_day: u16) -> Option<u16> {
 
 fn main() {
     // You can optionally experiment here.
+// 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]

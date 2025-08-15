@@ -1,4 +1,5 @@
 // TODO: Fix the function body without changing the signature.
+// TODO: 修复函数体，但不要更改函数签名。
 fn square(num: i32) -> i32 {
     num * num;
 }

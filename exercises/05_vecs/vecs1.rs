@@ -3,6 +3,8 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
 
     // TODO: Create a vector called `v` which contains the exact same elements as in the array `a`.
     // Use the vector macro.
+    // TODO: 创建一个向量 `v`，包含与数组 `a` 完全相同的元素
+    // 使用向量宏 `vec!`
     // let v = ???;
 
     (a, v)
@@ -10,6 +12,7 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
 
 fn main() {
     // You can optionally experiment here.
+    // 你可以在这里进行可选的实验。
 }
 
 #[cfg(test)]
